@@ -12,6 +12,9 @@
 		A98C0CA7217C4E2000335646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98C0CA5217C4E2000335646 /* Main.storyboard */; };
 		A98C0CA9217C4E2100335646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98C0CA8217C4E2100335646 /* Assets.xcassets */; };
 		A98C0CAC217C4E2100335646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98C0CAA217C4E2100335646 /* LaunchScreen.storyboard */; };
+		A98C0CB4217C5B5800335646 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C0CB3217C5B5800335646 /* Constants.swift */; };
+		A98C0CB6217C5C7900335646 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C0CB5217C5C7900335646 /* SecondViewController.swift */; };
+		A98E259D21826C00007A4F8F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98E259C21826C00007A4F8F /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A98C0CA8217C4E2100335646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A98C0CAB217C4E2100335646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A98C0CAD217C4E2100335646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98C0CB3217C5B5800335646 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A98C0CB5217C5C7900335646 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A98E259C21826C00007A4F8F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				A98C0CA8217C4E2100335646 /* Assets.xcassets */,
 				A98C0CAA217C4E2100335646 /* LaunchScreen.storyboard */,
 				A98C0CAD217C4E2100335646 /* Info.plist */,
+				A98C0CB3217C5B5800335646 /* Constants.swift */,
+				A98C0CB5217C5C7900335646 /* SecondViewController.swift */,
+				A98E259C21826C00007A4F8F /* RegisterViewController.swift */,
 			);
 			path = "LoginApp-Day-2";
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98C0CB6217C5C7900335646 /* SecondViewController.swift in Sources */,
+				A98E259D21826C00007A4F8F /* RegisterViewController.swift in Sources */,
 				A98C0CA4217C4E2000335646 /* ViewController.swift in Sources */,
 				A98C0CA2217C4E2000335646 /* AppDelegate.swift in Sources */,
+				A98C0CB4217C5B5800335646 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7P7943G3Q;
 				INFOPLIST_FILE = "LoginApp-Day-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7P7943G3Q;
 				INFOPLIST_FILE = "LoginApp-Day-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
